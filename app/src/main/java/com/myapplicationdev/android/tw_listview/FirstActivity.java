@@ -38,7 +38,7 @@ public class FirstActivity extends AppCompatActivity {
                 String name = al.get(position);
 
                 Intent intent = new Intent(getBaseContext(), SecondActivity.class);
-                intent.putExtra("type", name);
+                intent.putExtra("year", name);
                 startActivity(intent);
 
             }
